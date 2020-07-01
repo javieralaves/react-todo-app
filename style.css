@@ -1,1 +1,27 @@
-body { }
+body { 
+    background-color: whitesmoke;
+}
+
+.todo-list {
+    background-color: white;
+    margin: auto;
+    align-items: center;
+    border: 1px solid #efefef;
+}
+
+.todo-item {
+    padding: 24px 24px 0;
+    font-family: Roboto, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+input[type=checkbox] {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+input[type=checkbox]:focus {
+    outline: 0;
+}
